@@ -2,7 +2,11 @@
 
 If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system and have **Google Chrome** as an installed browser, you can skip this section. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
-**Please Note**: We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
+<div class="lesson-note" markdown="1">
+
+We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
+
+</div>
 
 ### OS Installation
 
@@ -201,7 +205,7 @@ Dual-booting provides two operating systems on your computer that you can switch
 
 ### Step 1: Download Ubuntu
 
-First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/20.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/20-04/). Be sure to download the 64-bit version of [Ubuntu](https://releases.ubuntu.com/20.04/) or [Xubuntu](https://xubuntu.org/release/20-04/).
+First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop Ubuntu. If you're using an older computer, we recommend Xubuntu. Be sure to download the 64-bit **Desktop** version of [Ubuntu](https://releases.ubuntu.com/20.04/) or [Xubuntu](https://xubuntu.org/release/20-04/).
 
 ### Step 2: Create a Bootable Flash Drive
 

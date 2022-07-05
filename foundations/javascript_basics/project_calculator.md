@@ -4,7 +4,11 @@ You made it! By now you should have a _really_ firm grasp on the fundamentals of
 
 As usual with these things, there are elements of this project that are not going to be trivially easy for you, but if you've been following the course so far, you definitely have everything you need to finish it. We're going to walk you through the various steps you can take, but again, how you actually implement them is up to you!
 
-**Important Note:** Before you get started with this calculator project, we need to cover a word of warning. As you look into how to evaluate complex mathematical statements in JavaScript, you will likely come across the tantalizing [`eval()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) function. However, this function can be very dangerous and [should not ever be used](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#Never_use_eval!)! You'll need to build your own functions to evaluate expressions as part of this calculator project. On the same note, when researching how to calculate expressions for this project, you may encounter solutions that suggest that you return a `new Function()` that evaluates a string. Similarly to `eval()`, this should not be used [due to potential pitfalls of evaluating insecure data](https://stackoverflow.com/questions/4599857/are-eval-and-new-function-the-same-thing). Besides, where's the fun in solutions that do all the work for you? Let's get to it!
+<div class="lesson-note" markdown="1">
+
+Before you get started with this calculator project, we need to cover a word of warning. As you look into how to evaluate complex mathematical statements in JavaScript, you will likely come across the tantalizing [`eval()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) function. However, this function can be very dangerous and [should not ever be used](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#Never_use_eval!)! You'll need to build your own functions to evaluate expressions as part of this calculator project. On the same note, when researching how to calculate expressions for this project, you may encounter solutions that suggest that you return a `new Function()` that evaluates a string. Similarly to `eval()`, this should not be used [due to potential pitfalls of evaluating insecure data](https://stackoverflow.com/questions/4599857/are-eval-and-new-function-the-same-thing). Besides, where's the fun in solutions that do all the work for you? Let's get to it!
+
+</div>
 
 ### Assignment
 
@@ -34,8 +38,11 @@ Here are some use cases (abilities your project needs to have):
    4. Pressing `=` before entering all of the numbers or an operator could cause problems!
    5. Pressing "clear" should wipe out any existing data.. make sure the user is really starting fresh after pressing "clear"
    6. Display a snarky error message if the user tries to divide by 0... don't let it crash your calculator!
-7. EXTRA CREDIT: Users can get floating point numbers if they do the math required to get one, but they can't type them in yet. Add a `.` button and let users input decimals! Make sure you don't let them type more than one though: `12.3.56.5`. It is hard to do math on these numbers. \(disable the decimal button if there's already one in the display\)
-8. EXTRA CREDIT: Make it look nice! This is a great project to practice your CSS skills. At least make the operations a different color from the keypad buttons.
-9. EXTRA CREDIT: Add a "backspace" button, so the user can undo if they click the wrong number.
-10. EXTRA CREDIT: Add keyboard support!
+
+ #### Extra Credit
+
+ * Users can get floating point numbers if they do the math required to get one, but they can't type them in yet. Add a `.` button and let users input decimals! Make sure you don't let them type more than one though: `12.3.56.5`. It is hard to do math on these numbers. \(disable the decimal button if there's already one in the display\)
+* Make it look nice! This is a great project to practice your CSS skills. At least make the operations a different color from the keypad buttons.
+* Add a "backspace" button, so the user can undo if they click the wrong number.
+* Add keyboard support!
 </div>
